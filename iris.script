@@ -1,0 +1,11 @@
+    zn "%SYS"
+    Do ##class(Security.Users).UnExpireUserPasswords("*")
+
+    zn "USER"
+    zpm "repo -r -n registry -url https://test.pm.community.intersystems.com/registry/"
+    zpm "install passwordless"
+    zpm "install telegram-adapter"
+    zpm "load /irisdev/app/"
+    zpm "telegram-adapter-demo compile"
+
+    halt
