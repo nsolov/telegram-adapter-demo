@@ -8,6 +8,7 @@ XData ProductionDefinition
   <ActorPoolSize>2</ActorPoolSize>
   <Item Name="Telegram.BusinessOperation" Category="" ClassName="Telegram.BusinessOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="true" Schedule="">
     <Setting Target="Adapter" Name="SSLConfig">tg</Setting>
+    <Setting Target="Adapter" Name="Token"></Setting>
   </Item>
   <Item Name="Telegram.LongPollingService" Category="" ClassName="Telegram.LongPollingService" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="true" Schedule="">
     <Setting Target="Adapter" Name="SSLConfig">tg</Setting>

@@ -4,6 +4,7 @@
     zn "USER"
     zpm "install passwordless"
     zpm "install telegram-adapter"
+    zpm "install production-settings"
     zpm "load /irisdev/app/"
     zpm "telegram-adapter-demo compile"
 
