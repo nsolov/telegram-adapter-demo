@@ -23,11 +23,14 @@ USER>zpm "install telegram-adapter-demo -D TgToken=your_telegram_token"
    * Server (usually `api.telegram.org`)
    * Token
    * SSL Configuration
-3. Create a chat on telegram
-4. Add the created bot as a user to the chat and grant it administrator rights.
-5. Launch the production
-6. Add another user to the chat - you will see a greeting from IRIS.
-7. Write something in the chat - you will see the echo from IRIS.
+3. Check the parameters in the Telegram.LongPollingService service (Telegram Settings block).
+Make sure the FilesPath parameter is set to an existing path on your server.
+The FilesSave, FilesMimeTypes and FilesPath parameters are used to work with incoming files.
+4. Create a chat on telegram
+5. Add the created bot as a user to the chat and grant it administrator rights.
+6. Launch the production
+7. Add another user to the chat - you will see a greeting from IRIS.
+8. Write something in the chat - you will see the echo from IRIS.
 
 ## How to get a telegram token
 
