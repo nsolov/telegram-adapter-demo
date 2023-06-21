@@ -13,7 +13,7 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 <assign value='"sendMessage"' property='target.Method' action='set' />
 <assign value='{}' property='target.Data' action='set' />
 <assign value='source.Data.message.chat.id' property='target.Data."chat_id"' action='set' />
-<assign value='"Echo only responds to text requests or .pdf files"' property='target.Data.text' action='set' />
+<assign value='"Echo only responds to text requests or .png files"' property='target.Data.text' action='set' />
 <assign value='source.Data.message."message_id"' property='target.Data."reply_to_message_id"' action='set' />
 </transform>
 }

@@ -31,7 +31,7 @@ The FilesSave, FilesMimeTypes and FilesPath parameters are used to work with inc
 6. Launch the production
 7. Add another user to the chat - you will see a greeting from IRIS.
 8. Write something in the chat - you will see the echo from IRIS.
-9. Send .pdf file to the chat - if telegram can create a preview for this file, you will see this preview
+9. Send .png file to the chat - if telegram can create a preview for this file, you will see this preview
 
 ## How to get a telegram token
 

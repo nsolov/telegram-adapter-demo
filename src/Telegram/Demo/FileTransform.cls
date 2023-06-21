@@ -1,4 +1,4 @@
-Class Telegram.Demo.PDFTransform Extends Ens.DataTransformDTL [ DependsOn = (Telegram.JSONContainer, Telegram.Request) ]
+Class Telegram.Demo.FileTransform Extends Ens.DataTransformDTL [ DependsOn = (Telegram.JSONContainer, Telegram.Request) ]
 {
 
 Parameter IGNOREMISSINGSOURCE = 1;
@@ -14,6 +14,7 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 <assign value='{}' property='target.Data' action='set' />
 <assign value='source.Data.message.chat.id' property='target.Data."chat_id"' action='set' />
 <assign value='source.Data.message.document.thumbnail."file_path"' property='target.Data."photo"' action='set' />
+<assign value='"Here is a preview for the "_source.Data.message.document."file_name"_" image"' property='target.Data."caption"' action='set' />
 <assign value='source.Data.message.document.thumbnail."file_path"' property='target.Files' action='append' />
 </transform>
 }

@@ -13,8 +13,8 @@ XData ProductionDefinition
     <Setting Target="Adapter" Name="SSLConfig">tg</Setting>
     <Setting Target="Adapter" Name="CallInterval">5</Setting>
     <Setting Target="Host" Name="Target">MessageRouting</Setting>
-    <Setting Target="Adapter" Name="FilesMimeTypes">application/pdf</Setting>
-    <Setting Target="Adapter" Name="FilesPath">/irisdev/app/pdfs</Setting>
+    <Setting Target="Adapter" Name="FilesMimeTypes">image/png</Setting>
+    <Setting Target="Adapter" Name="FilesPath">/irisdev/app/images</Setting>
     <Setting Target="Adapter" Name="FilesSave">file,thumbnail</Setting>
   </Item>
   <Item Name="Telegram.WebHookService" Category="" ClassName="Telegram.WebHookService" PoolSize="0" Enabled="false" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
